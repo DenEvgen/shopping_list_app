@@ -1,0 +1,85 @@
+.done {
+	color: rgb(189, 183, 107);
+	text-decoration: line-through;
+}
+
+#shoppingList {
+	background: #DC143C;
+	width: 500px;
+	margin: 50px auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	transition: 0.3s;
+}
+
+#shoppingList:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+body {
+	background-image: url(../images/fruit.jpg);
+	font-family: 'Adamina', serif;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Slabo 27px', serif;
+}
+
+h2{
+	background: #7D8A2E;
+	margin: 0;
+	padding: 7px 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	
+}
+
+li {
+	color: rgb(255, 255, 0);
+	border-top: 1px solid white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+}
+
+input {
+	font-size: 20px;
+	background-color: Moccasin;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	color: #7D8A2E;
+}
+
+li span {
+	color: rgb(255,255,0);
+	float: right;
+	height: 40px;
+	width: 0;
+	text-align: center;
+	background: #7D8A2E;
+	opacity: 0;
+	transition: 0.5s;
+
+}
+
+input:focus {
+	background: white;
+	border: 2px solid #7D8A2E;
+	outline: none;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1;
+
+}
+
+h2 span {
+	float: right;
+}
